@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CRUD</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 id="count">Count</h1>
+        
+        <div class="num">
+        <h1 id="counter">0</h1>
+        </div>
+        
+        <div class="button">
+        <button class="button-28" id="increment-btn" role="button" onclick="increment()"><span class="text">Add</span></button>
+        <button class="button-28" id="save-btn" role="button" onclick="save()"><span class="text">Save</span></button>
+        <button class="button-28" id="reset-btn" role="button" onclick="reset()"><span class="text">Reset</span></button>
+        </div>
+
+        <div class="past">
+            <p id="save-el">Saved Entries: </p>
+        </div>
+
+        
+        <script src="index.js"></script>
+    </body>
+</html>
